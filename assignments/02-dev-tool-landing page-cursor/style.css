@@ -1,0 +1,76 @@
+* {
+    font-family: "CursorGothic","CursorGothic Fallback",system-ui,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 2px;
+    font-size: 14px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.inline {
+    display: inline;
+}
+
+.navbar {
+    justify-content: center;
+}
+
+
+.btn-dark {
+    background-color: black;
+    color: white;
+    padding: 2px 6px;
+    border: 1px white solid;
+    border-radius: 16px;
+}
+
+.btn-light-sm {
+    background-color: white;
+    color: black;    
+    padding: 2px 6px;
+    border: 1px white solid;
+    border-radius: 16px;
+}
+
+
+.btn-light-lg {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: white;
+    color: black;    
+    padding: 10px;
+    border: 1px white solid;
+    border-radius: 24px;
+}
+
+.hero {
+    padding-top: 100px;
+}
+
+.hero > p {
+    margin: 0;
+    font-size: 26px;
+}
+
+.trusted-by-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.trusted-by-card {
+    background-color: #1B1913;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 32px 48px;
+    border-radius: 16px;
+    text-align: center;
+}

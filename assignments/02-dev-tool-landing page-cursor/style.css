@@ -7,6 +7,10 @@
 body {
     background-color: black;
     color: white;
+    padding: 0 16px;
+    margin: 0 auto;
+    max-width: 1400px;
+    min-width: 1400px;
 }
 
 a {
@@ -19,7 +23,8 @@ a {
 }
 
 .navbar {
-    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -70,7 +75,153 @@ a {
     background-color: #1B1913;
     margin-right: 10px;
     margin-bottom: 10px;
-    padding: 32px 48px;
+    /* padding: 16px 16px; */
     border-radius: 16px;
     text-align: center;
+    height: 100px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trusted-by-card > img {
+    height: 40px;
+}
+
+.trusted-by > div {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.feature-card {
+    align-items: center;
+    background-color: #1D1B15;
+    margin-bottom: 100px;
+    /* ma */
+    border-radius: 8px;
+    padding: 16px;
+    gap: 8px;
+}
+
+
+
+.feature-text > p {
+    font-size: 22px;
+}
+
+.feature-grey {
+    color: #9A9996;
+}
+
+.feature-orange {
+    color: #BF4105;
+    font-weight: bold;
+}
+
+.testimonials-text {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.testimonials-card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.testimonials-card {
+    background-color: #1D1B15;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.testimonials-card-text {
+    font-size: 16px;
+}
+
+.testimonials-card-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonials-card-profile-text > p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.testimonials-card-profile > img {
+    height: 40px;
+    width: 40px;
+}
+
+.frontier {
+    margin-bottom: 40px;
+}
+
+.frotier-text {
+    font-size: 26px;
+}
+
+.frontier-card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.frontier-card{
+    background-color: #1B1913;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.frontier-card > img {
+    width: 100%;
+}
+.frontier-card-text-white {
+    font-size: 16px;
+}
+
+.frontier-card-text-grey {
+    font-size: 16px;
+    color: #9A9996;
+
+}
+
+.frontier-card-text-orange{
+    font-size: 16px;
+    color: #BF4105;
+    font-weight: bold;
+}
+
+.changelog-text {
+    font-size: 26;
+}
+
+.changelog-card-list {
+
+}
+
+.changelog-card {
+    
+}
+
+.changelog-card > p {
+
+}
+
+.changelog-text-orange {
+    color: #BF4105;
+    font-weight: bold;
 }
